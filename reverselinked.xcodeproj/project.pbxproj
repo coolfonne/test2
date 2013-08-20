@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA6B5F9E17BAC56500164740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6B5F9D17BAC56500164740 /* Foundation.framework */; };
-		BA6B5FA117BAC56500164740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6B5FA017BAC56500164740 /* main.m */; };
+		BA6B5FA117BAC56500164740 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6B5FA017BAC56500164740 /* main.mm */; };
 		BA6B5FA517BAC56500164740 /* reverselinked.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA6B5FA417BAC56500164740 /* reverselinked.1 */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		BA6B5F9A17BAC56500164740 /* reverselinked */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = reverselinked; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6B5F9D17BAC56500164740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BA6B5FA017BAC56500164740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA6B5FA017BAC56500164740 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		BA6B5FA317BAC56500164740 /* reverselinked-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reverselinked-Prefix.pch"; sourceTree = "<group>"; };
 		BA6B5FA417BAC56500164740 /* reverselinked.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = reverselinked.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 		BA6B5F9F17BAC56500164740 /* reverselinked */ = {
 			isa = PBXGroup;
 			children = (
-				BA6B5FA017BAC56500164740 /* main.m */,
+				BA6B5FA017BAC56500164740 /* main.mm */,
 				BA6B5FA417BAC56500164740 /* reverselinked.1 */,
 				BA6B5FA217BAC56500164740 /* Supporting Files */,
 			);
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA6B5FA117BAC56500164740 /* main.m in Sources */,
+				BA6B5FA117BAC56500164740 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
